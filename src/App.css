@@ -1,0 +1,179 @@
+.overlay {
+	width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0; 
+}
+.mainContainer {
+  width:800px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+.albumOptions {
+	width: 20%;
+	height: auto;
+}
+
+.albumOptions li {
+	margin: 20px;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.mainContainer2 {
+	width:900px;
+	margin: auto;
+}
+.flexThis {
+	display: flex;
+
+}
+
+.otherContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Album {
+	width:80%;
+}
+
+text {
+	text-align:center;
+}
+h2 {
+	font-style: Arial;
+	background:grey;
+	color:white;
+	text-align:center;
+}
+
+
+.liPhotos {
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.liPhoto {
+	width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.liPhoto a {
+	text-decoration: none;
+	color: black;
+}
+
+.albumContainer {
+	width:800px;
+	height:auto;
+	display:flex;
+  	justify-content: space-between;
+  	flex-wrap:wrap;
+  	
+
+}
+.text {
+	text-decoration:none;
+	color:white;
+	background:grey;
+	align-content: left;
+
+}
+
+.txtBox {
+	width:auto;
+	background:grey;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.album1 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-right:10px;
+	margin-bottom:100px;
+	background:url("https://www.wired.com/images_blogs/gadgetlab/2013/03/03014_netflix2_1200.jpg");
+	background-size:cover;
+
+
+}
+.album2 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-right:10px;
+	margin-bottom:100px;
+	background:url("https://i2.wp.com/ewedit.files.wordpress.com/2017/04/rick-and-morty.jpg?crop=0px%2C0px%2C2700px%2C1799.55px&resize=2000%2C1333&ssl=1");
+	background-size:cover;
+}
+.album3 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-bottom:100px;
+	background:url("http://slodive.com/wp-content/uploads/2012/09/hairstyles-for-little-black-girls/little-samosa-girl.jpg");
+	background-size:cover;
+}
+.album4 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-right:10px;
+	margin-bottom:100px;
+	background:url("http://images.huffingtonpost.com/2010-02-20-HotModelVSEscaladeRearWindowHongLongToBreak.jpg");
+	background-size:cover;
+}
+.album5 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-right:10px;
+	margin-bottom:100px;
+	background:url("http://commentphotos.com/gallery/CommentPhotos.com_1407355565.jpg");
+	background-size:cover;
+}
+.album6 {
+	width:250px;
+	height:250px;
+	background:pink;
+	border:2px solid black;
+	margin-bottom:100px;
+	background:url("http://az616578.vo.msecnd.net/files/2016/05/20/6359938065293238251500324754_North-by-Northwest.jpg");
+	background-size:cover;
+}
+
+.button {
+	background: blue;
+	color:white;
+}
+.endImg {
+	width: auto;
+	background:black;
+}
+.lrgImg {
+ width:30%;
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ position:relative;
+}
